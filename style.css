@@ -3,7 +3,8 @@ display: grid;
 grid-template-areas:
 "head head head"
 "side content content"
-"foot foot foot"
+"foot foot foot";
+grid-template-rows: 50px auto 50px;
 }
 
 header {
@@ -30,4 +31,3 @@ color: white;
 background-color: black;
 }
 
-/* grid-template-rows: 50px auto 50px; */
