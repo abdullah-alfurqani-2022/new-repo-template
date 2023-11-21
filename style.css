@@ -6,9 +6,28 @@ grid-template-areas:
 "foot foot foot"
 }
 
-header { grid-area: head; }
-article { grid-area: content; }
-aside { grid-area: side; }
-footer { grid-area: foot; }
+header {
+grid-area: head;
+color: white;
+background-color: red;
+}
+
+article {
+grid-area: content;
+color: white;
+background-color: grey;
+}
+
+aside {
+grid-area: side;
+color: white;
+background-color: green;
+}
+
+footer {
+grid-area: foot;
+color: white;
+background-color: black;
+}
 
 grid-template-rows: 50px auto 50px;
