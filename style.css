@@ -1,0 +1,33 @@
+main {
+display: grid;
+grid-template-areas:
+"head head head"
+"side content content"
+"foot foot foot";
+grid-template-rows: 50px auto 50px;
+}
+
+header {
+grid-area: head;
+color: white;
+background-color: red;
+}
+
+article {
+grid-area: content;
+color: white;
+background-color: grey;
+}
+
+aside {
+grid-area: side;
+color: white;
+background-color: green;
+}
+
+footer {
+grid-area: foot;
+color: white;
+background-color: black;
+}
+
